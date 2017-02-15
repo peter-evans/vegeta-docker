@@ -14,4 +14,4 @@ RUN set -ex \
  && rm /tmp/vegeta.tar.gz \
  && apk del .build-deps
 
-ENTRYPOINT ["/bin/vegeta"]
+CMD [ "/bin/vegeta", "-help" ]
