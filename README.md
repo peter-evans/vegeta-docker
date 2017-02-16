@@ -15,8 +15,8 @@ docker run --rm -i peterevans/vegeta
 ```
 Example:
 ```bash
-docker run --rm -i peterevans/vegeta \
-sh -c "echo 'GET https://www.example.com' | vegeta attack -rate=10 -duration=30s | tee results.bin | vegeta report"
+docker run --rm -i peterevans/vegeta sh -c \
+"echo 'GET https://www.example.com' | vegeta attack -rate=10 -duration=30s | tee results.bin | vegeta report"
 ```
 For full documentation see [Vegeta](https://github.com/tsenart/vegeta).
 
@@ -28,8 +28,8 @@ kubectl run vegeta --rm --attach --restart=Never --image="peterevans/vegeta"
 ```
 Example:
 ```bash
-kubectl run vegeta --rm --attach --restart=Never --image="peterevans/vegeta" -- \
-sh -c "echo 'GET https://www.example.com' | vegeta attack -rate=10 -duration=30s | tee results.bin | vegeta report"
+kubectl run vegeta --rm --attach --restart=Never --image="peterevans/vegeta" -- sh -c \
+"echo 'GET https://www.example.com' | vegeta attack -rate=10 -duration=30s | tee results.bin | vegeta report"
 ```
 
 ## License
