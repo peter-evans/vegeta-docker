@@ -1,7 +1,7 @@
 # Vegeta Docker
-Docker image for the [Vegeta](https://github.com/tsenart/vegeta) HTTP load testing tool.
+[![](https://images.microbadger.com/badges/image/peterevans/vegeta.svg)](https://microbadger.com/images/peterevans/vegeta)
 
-[![](https://images.microbadger.com/badges/image/peterevans/vegeta.svg)](https://microbadger.com/images/peterevans/vegeta "Get your own image badge on microbadger.com")
+Docker image for the [Vegeta](https://github.com/tsenart/vegeta) HTTP load testing tool.
 
 ## Supported tags and respective `Dockerfile` links
 
