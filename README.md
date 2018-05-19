@@ -1,11 +1,13 @@
 # Vegeta Docker
 [![](https://images.microbadger.com/badges/image/peterevans/vegeta.svg)](https://microbadger.com/images/peterevans/vegeta)
+[![Build Status](https://travis-ci.org/peter-evans/vegeta-docker.svg?branch=master)](https://travis-ci.org/peter-evans/vegeta-docker)
 
 Docker image for the [Vegeta](https://github.com/tsenart/vegeta) HTTP load testing tool.
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`1.3.0`, `1.3`, `latest`  (*1.3/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/1.3)
+- [`2.0.0`, `2.0`, `latest`  (*2.0/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/2.0)
+- [`1.3.0`, `1.3`  (*1.3/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/1.3)
 - [`1.2.0`, `1.2`  (*1.2/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/1.2)
 - [`1.1.0`, `1.1`  (*1.1/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/1.1)
 
