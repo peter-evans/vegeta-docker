@@ -2,7 +2,7 @@ FROM alpine:3.7
 
 MAINTAINER Peter Evans <pete.evans@gmail.com>
 
-ENV VEGETA_VERSION 7.0.0
+ENV VEGETA_VERSION 7.0.3
 
 RUN set -ex \
  && apk add --no-cache ca-certificates \
