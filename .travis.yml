@@ -2,7 +2,7 @@ services:
   - docker
 
 install:
-  - docker build -t vegeta ./4.0
+  - docker build -t vegeta ./5.0
 
 script:
   - docker run --rm -i vegeta || true
