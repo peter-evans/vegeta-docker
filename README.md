@@ -6,7 +6,8 @@ Docker image for the [Vegeta](https://github.com/tsenart/vegeta) HTTP load testi
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`6.0.0`, `6.0`, `latest`  (*6.0/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/6.0)
+- [`6.1.0`, `6.1`, `latest`  (*6.1/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/6.1)
+- [`6.0.0`, `6.0`  (*6.0/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/6.0)
 - [`5.1.0`, `5.1`  (*5.1/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/5.1)
 - [`5.0.0`, `5.0`  (*5.0/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/5.0)
 - [`4.0.0`, `4.0`  (*4.0/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/4.0)
@@ -15,7 +16,8 @@ Docker image for the [Vegeta](https://github.com/tsenart/vegeta) HTTP load testi
 - [`2.0.1`, `2.0`  (*2.0/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/2.0)
 - [`1.3.0`, `1.3`  (*1.3/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/1.3)
 - [`1.2.0`, `1.2`  (*1.2/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/1.2)
-- [`1.1.0`, `1.1`  (*1.1/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/1.1)
+
+For earlier versions see [releases](https://github.com/peter-evans/vegeta-docker/releases) and the available [tags on Docker Hub](https://hub.docker.com/r/peterevans/vegeta/tags/).
 
 ## Usage
 
