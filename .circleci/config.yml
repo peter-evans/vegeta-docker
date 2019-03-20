@@ -15,7 +15,7 @@ jobs:
       - run:
           name: Build Docker image
           command: |
-            docker build -t $IMAGE_NAME:latest .
+            docker build -t $IMAGE_NAME:latest . --label "org.opencontainers.image.version=${CIRCLE_TAG/v/''}"
       - run:
           name: Test Docker image
           command: |
