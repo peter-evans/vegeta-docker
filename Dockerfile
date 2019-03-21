@@ -1,6 +1,13 @@
 FROM alpine:3.8
 
-MAINTAINER Peter Evans <pete.evans@gmail.com>
+LABEL \
+  maintainer="Peter Evans <mail@peterevans.dev>" \
+  org.opencontainers.image.title="Vegeta" \
+  org.opencontainers.image.description="Docker image for the Vegeta HTTP load testing tool." \
+  org.opencontainers.image.authors="Peter Evans <mail@peterevans.dev>" \
+  org.opencontainers.image.url="https://github.com/peter-evans/vegeta-docker" \
+  org.opencontainers.image.vendor="https://peterevans.dev" \
+  org.opencontainers.image.licenses="MIT"
 
 ENV VEGETA_VERSION 12.2.1
 
