@@ -1,18 +1,16 @@
 # Vegeta Docker
 [![](https://images.microbadger.com/badges/image/peterevans/vegeta.svg)](https://microbadger.com/images/peterevans/vegeta)
-[![Build Status](https://travis-ci.org/peter-evans/vegeta-docker.svg?branch=master)](https://travis-ci.org/peter-evans/vegeta-docker)
 [![CircleCI](https://circleci.com/gh/peter-evans/vegeta-docker/tree/master.svg?style=svg)](https://circleci.com/gh/peter-evans/vegeta-docker/tree/master)
 
 Docker image for the [Vegeta](https://github.com/tsenart/vegeta) HTTP load testing tool.
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`6.3.0`, `6.3`, `latest`  (*6.2/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master)
+- [`6.4.0`, `6.4`, `latest`  (*6.4/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master)
+- [`6.3.0`, `6.3`  (*6.3/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/archive/6.3)
 - [`6.2.2`, `6.2`  (*6.2/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/archive/6.2)
 - [`6.1.0`, `6.1`  (*6.1/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/archive/6.1)
 - [`6.0.0`, `6.0`  (*6.0/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/archive/6.0)
-- [`5.1.0`, `5.1`  (*5.1/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/archive/5.1)
-- [`5.0.0`, `5.0`  (*5.0/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/archive/5.0)
 
 For earlier versions see [releases](https://github.com/peter-evans/vegeta-docker/releases) and the available [tags on Docker Hub](https://hub.docker.com/r/peterevans/vegeta/tags/).
 
