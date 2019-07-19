@@ -1,4 +1,4 @@
-FROM alpine:3.10.1
+FROM alpine:3.9
 
 LABEL \
   maintainer="Peter Evans <mail@peterevans.dev>" \
@@ -9,7 +9,7 @@ LABEL \
   org.opencontainers.image.vendor="https://peterevans.dev" \
   org.opencontainers.image.licenses="MIT"
 
-ENV VEGETA_VERSION 12.6.0
+ENV VEGETA_VERSION 12.5.1
 
 RUN set -ex \
  && apk add --no-cache ca-certificates \
