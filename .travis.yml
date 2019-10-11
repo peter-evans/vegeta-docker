@@ -1,8 +1,0 @@
-services:
-  - docker
-
-install:
-  - docker build -t vegeta .
-
-script:
-  - docker run --rm -i vegeta || true
