@@ -6,11 +6,11 @@ Docker image for the [Vegeta](https://github.com/tsenart/vegeta) HTTP load testi
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`6.7.0`, `6.7`, `latest`  (*6.7/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master)
-- [`6.6.0`, `6.6`  (*6.6/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/archive/6.6)
-- [`6.5.0`, `6.5`  (*6.5/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/archive/6.5)
-- [`6.4.0`, `6.4`  (*6.4/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/archive/6.4)
-- [`6.3.0`, `6.3`  (*6.3/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/master/archive/6.3)
+- [`6.8.0`, `6.8`, `latest`  (*6.8/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/v6.8.0)
+- [`6.7.0`, `6.7`  (*6.7/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/v6.7.0)
+- [`6.6.0`, `6.6`  (*6.6/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/v6.6.0)
+- [`6.5.0`, `6.5`  (*6.5/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/v6.5.0)
+- [`6.4.0`, `6.4`  (*6.4/Dockerfile*)](https://github.com/peter-evans/vegeta-docker/tree/v6.4.0)
 
 For earlier versions see [releases](https://github.com/peter-evans/vegeta-docker/releases) and the available [tags on Docker Hub](https://hub.docker.com/r/peterevans/vegeta/tags/).
 
