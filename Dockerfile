@@ -9,7 +9,7 @@ LABEL \
   org.opencontainers.image.vendor="https://peterevans.dev" \
   org.opencontainers.image.licenses="MIT"
 
-ENV VEGETA_VERSION 12.7.0
+ENV VEGETA_VERSION 12.8.0
 
 RUN set -ex \
  && apk add --no-cache ca-certificates \
