@@ -3,7 +3,6 @@ executors:
   docker-executor:
     environment:
       IMAGE_NAME: peterevans/vegeta
-      APP_NAME: vegeta
     docker:
       - image: circleci/buildpack-deps:stretch
 jobs:

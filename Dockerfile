@@ -10,7 +10,7 @@ LABEL \
   org.opencontainers.image.url="https://github.com/peter-evans/vegeta-docker" \
   org.opencontainers.image.vendor="https://peterevans.dev" \
   org.opencontainers.image.licenses="MIT" \
-  app.tag=$VEGETA_VERSION
+  app.tag="vegeta$VEGETA_VERSION"
 
 RUN set -ex \
  && apk add --no-cache ca-certificates \
