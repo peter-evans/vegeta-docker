@@ -1,5 +1,7 @@
 FROM alpine:3.10.1
 
+ENV VEGETA_VERSION 12.8.3
+
 LABEL \
   maintainer="Peter Evans <mail@peterevans.dev>" \
   org.opencontainers.image.title="vegeta" \
@@ -7,9 +9,8 @@ LABEL \
   org.opencontainers.image.authors="Peter Evans <mail@peterevans.dev>" \
   org.opencontainers.image.url="https://github.com/peter-evans/vegeta-docker" \
   org.opencontainers.image.vendor="https://peterevans.dev" \
-  org.opencontainers.image.licenses="MIT"
-
-ENV VEGETA_VERSION 12.8.0
+  org.opencontainers.image.licenses="MIT" \
+  app.tag=$VEGETA_VERSION
 
 RUN set -ex \
  && apk add --no-cache ca-certificates \
