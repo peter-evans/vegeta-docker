@@ -1,6 +1,6 @@
 FROM alpine:3.10.1
 
-ENV VEGETA_VERSION 12.8.3
+ENV VEGETA_VERSION 12.8.4
 
 LABEL \
   maintainer="Peter Evans <mail@peterevans.dev>" \
